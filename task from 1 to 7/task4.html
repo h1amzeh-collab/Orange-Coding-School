@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 3px solid rgb(0, 68, 93);
+            padding: 12px;
+        }
+        p{
+            position: relative;
+            top: 31px;
+            left: 18px;
+            background-color: white;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body style="font-size: 20px;">
+    <h1>Fill in your in information</h1>
+    <p>Form</p>
+    <form action="">
+        <label>First name: <br>
+        <input type="text" id="first" name="first">
+        </label><br>
+        <label>Last name: <br>
+        <input type="text" id="last" name="last">
+        </label><br>
+        <label>Email <br>
+        <input type="email" id="email" name="email">
+        </label><br><br>
+        <label><h2>Your Gender </h2>
+        <input type="radio" id="" name="male"> Male
+        <input type="radio" id="" name="Female"> Female
+        </label><br>
+        <label> <h2>Favorite Subjects</h2> 
+            <input type="checkbox" name="checkbox"> C++
+            <input type="checkbox" name="checkbox"> Java
+            <input type="checkbox" name="checkbox"> C#
+            <input type="checkbox" name="checkbox"> PHP
+            <input type="checkbox" name="checkbox"> SQL
+        </label><br><br>
+        <input list="cities" placeholder="Irbid">
+        <label > <h2> Your City</h2>
+            <datalist id="cities">
+                <option value="Irbid">Irbid</option>
+                <option value="Amman">Amman</option>
+                <option value="Zarqa">Zarqa</option>
+            </datalist>
+        </label>
+     <label>
+        Upload Image : <button>Choose File</button> No file chosen
+     </label><br><br>
+     <label >Write About yourself:</label><br>
+     <textarea name="de" id="de" rows="10" cols="50">write here</textarea><br>
+      <input type="submit">
+    </form>
+</body>
+</html>
