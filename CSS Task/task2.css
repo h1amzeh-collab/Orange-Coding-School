@@ -3,15 +3,15 @@
   --color-secondary:#777;
 }
 
-h1{
+h1{ /*  Element : Selects elements by their HTML tag name*/
     color: var(--color-main);
     font-weight: 800;
 }
-h1 span {
+h1 span { /*  Descendant : Selects <span> elements inside <h1>*/
     background-color: var(--color-main);
     color: white;
 }
-.sign-in {
+.sign-in { /*  Class : Selects elements with a specific class */
     padding: 6px 4px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: auto;
